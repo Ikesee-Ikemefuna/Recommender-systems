@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 7.5em; /* Increased font size 3 times for the main heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 3.6em; /* Increased font size 3 times for the label */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 3.6em; /* Increased font size 3 times for the input text */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 3.6em; /* Increased font size 3 times for the button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 6em; /* Increased font size 3 times for the sub-heading */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 4.5em; /* Increased font size 3 times for the movie list */
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+    font-size: 3.6em; /* Increased font size 3 times for the error message */
+}
